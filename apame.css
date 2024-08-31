@@ -4,11 +4,11 @@
 }
 @font-face{
     font-family: doran  ;
-    src: url(./Fonts/Doran-Medium.ttf);
+    src: url(/Doran-Medium.ttf);
 }
 @font-face {
   font-family: dirooz ;
-  src: url(./Fonts/Dirooz-FD.ttf);
+  src: url(Dirooz-FD.ttf);
 }
 @font-face {
   font-family: worksans ;
@@ -17,7 +17,7 @@
 
 @font-face {
   font-family: camel;
-  src: url(./Fonts/estedad/Estedad-Light.ttf);
+  src: url(Estedad-Light.ttf);
   
 }
 
