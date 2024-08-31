@@ -56,7 +56,7 @@ function NewToDo( NewTask) {
 
     let newToDoimg = $.createElement('img')
     newToDoimg.className = 'bin'
-    newToDoimg.src = "./Photos/trash-bin.png"
+    newToDoimg.src = "trash-bin.png"
     newToDoSection.append(newToDoimg)
 
     newToDoH4.innerHTML = NewTask
