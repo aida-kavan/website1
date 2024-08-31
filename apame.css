@@ -1,0 +1,154 @@
+@font-face {
+    font-family: javan;
+    src: url(./Fonts/Javan@fontenoo/Javan/javan.ttf);
+}
+@font-face{
+    font-family: doran  ;
+    src: url(./Fonts/Doran-Medium.ttf);
+}
+@font-face {
+  font-family: dirooz ;
+  src: url(./Fonts/Dirooz-FD.ttf);
+}
+@font-face {
+  font-family: worksans ;
+  src: url(./Fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: camel;
+  src: url(./Fonts/estedad/Estedad-Light.ttf);
+  
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bodyy{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url(c:/Users/aidah/Downloads/v904-nunny-012.jpg);
+  background-size: cover;
+  /* filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0)); */
+  font-family: camel;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-container{
+  height: auto;
+  width: 450px;
+  background-color: rgb(143, 143, 199);
+  border-radius: 10px;
+  display: none;
+  justify-content: center;
+  font-size:large;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.todos{
+  width: 350px;
+  height: auto;
+  margin: 20px;
+}
+
+.to-do{
+  width: 350px;
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: space-between;
+  margin-top: 10px;
+
+
+}
+
+
+.title{
+  margin-right:10px ;
+  margin-left: 10px;
+
+}
+
+.bin{
+  width: 30px;
+  height: auto;
+  margin-left: 5px;
+}
+
+h5{
+  color: rgb(94, 74, 137);
+  background-color: rgb(255, 255, 255);
+  padding: 7px;
+  border-radius: 3px;
+}
+
+.new-task{
+  width: 300px;
+  border-color: rgba(0, 0, 0, 0);
+  font-family: camel;
+  font-weight: 700; 
+  color: black;
+  background-color: rgba(250, 235, 215, 0);
+  padding-right: 10px;
+}
+
+input:focus{
+  outline: none;
+  color: black;
+
+}
+
+.input-cont{
+  width: 350px;
+  height: 40px;
+  background-color: rgb(255, 255, 255); 
+  border-radius: 10px;
+  margin: 20px;
+  display: flex;
+
+}
+
+.span-img{
+  width: 40px;
+  height: 40px;
+
+}
+
+.img{
+  width: 40px;
+  height: 40px;
+}
+
+.empty-sec{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   font-weight: 800;
+   color: white;
+}
+
+
+.preLoad{
+  font-weight: 900;
+  font-size: xx-large;
+  background-color: white;
+  display: block;
+  animation: ease-out 2s ;
+}
