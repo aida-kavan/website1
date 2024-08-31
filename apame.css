@@ -33,8 +33,7 @@
   align-items: center;
   height: 100vh;
   margin: 0;
-   background-image: url(v904-nunny-012.jpeg);
-  background-size: cover;
+  background-color: rgb(55, 55, 99);
   /* filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0)); */
   font-family: camel;
   display: flex;
